@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  #entry-form {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 600px;
+  }
+  
+  #entry-form label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  #entry-form input[type="text"], #entry-form textarea {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #entry-form button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  #entry-form button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  #entries {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 600px;
+  }
+  
+  #entries h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #entry-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #entry-list li {
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #entry-list li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #entry-list li p {
+    font-size: 16px;
+    color: #333;
+  }  
+  #entry-list .entry-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #entry-list .entry-header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #entry-list .entry-header .toggle-entry {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #entry-list .entry-body {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }

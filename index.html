@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Journal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Daily Journal</h1>
+    </header>
+    <section id="entry-form">
+      <form>
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date" value="YYYY-MM-DD" required>
+        <br><br>
+        <label for="entry">Journal Entry:</label>
+        <textarea id="entry" name="entry" rows="5" cols="30" required></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="entries">
+      <h2>Previous Entries:</h2>
+      <ul id="entry-list">
+      </ul>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
